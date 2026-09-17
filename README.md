@@ -1,6 +1,12 @@
 # Site vitrine KOPERA
 
-Site statique (HTML/CSS/JS) pour la solution KOPERA — une page marketing, hébergée via OpenAI Hosting.
+Site statique (HTML/CSS/JS) pour la solution KOPERA — page marketing one-pager.
+
+**Repo :** https://github.com/kairrosAI/kopera-website
+
+```bash
+git clone git@github.com:kairrosAI/kopera-website.git
+```
 
 ## Structure
 
@@ -35,6 +41,8 @@ Le déploiement Codex passe aussi par **OpenAI Hosting** (`.openai/hosting.json`
 
 - Ne pas commiter de secrets ; le site est entièrement statique.
 
-## Historique Git
+## Distinction console produit
 
-Trois commits initiaux (maquette hero, logos applications, connecteurs Gmail/HubSpot/Boond). Pour un remote GitHub Kairros, ajouter `origin` et pousser quand le dépôt est créé.
+La **console KOPERA** (SSO, projets, connecteurs) n’est pas ce dépôt :
+
+https://ca-kopera-api.gentleforest-52006713.francecentral.azurecontainerapps.io
